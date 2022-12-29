@@ -122,3 +122,53 @@ nota2 = '5';
 console.log(nota1 == nota2); //Não faz distinção entre número e string
 
 console.log(nota1 === nota2); //Agora faz distinçção entre número e string
+
+
+//Operador NOT '!'
+
+let conectado = true;
+conectado = !conectado;
+
+console.log(conectado);
+console.log(!conectado);
+
+
+//Operador desigualdade !=, !==
+// == Igualdade; === Igualdade extrita ou exatamente igual
+
+let not1 = 5;
+let  not2 = '5';
+
+console.log(not1 == not2);
+console.log(not1 === not2);
+console.log(not1 != not2);
+console.log(not1 !== not2);
+console.log(!(not1 === not2));
+
+
+//Operadores lógicos binários
+
+let g = 2;
+let h = 8;
+let i = 1;
+let j = 13;
+
+console.log(g > h);
+console.log(h > i);
+console.log(i > j);
+console.log((g > h) && (i > j)); // Operador 'AND' 'e'. Para ser true todos os lados devem ser verdadeiros, se apenas um for verdadeiro o resultado será false.
+console.log((g < h) && (i < j));
+console.log((g < h) || (i > j)); // Operador 'OR' 'ou'. Se pelo menos uma delas for verdadeira o resultado será true
+
+
+//Operador incremental '++'
+
+let ab = 10;
+
+let xy = ab++;
+
+console.log(ab);
+console.log(xy);
+console.log(++xy);
+
+//Operador decremental '--' assim como o '++' irá subtratir em uma unidade assim como o incremental adiciona em uma unidade.
