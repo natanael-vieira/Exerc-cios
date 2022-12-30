@@ -65,3 +65,9 @@ let result = n + ' Olá';
 
 console.log(typeof n);
 console.log(typeof resultado);
+
+let num = 17;
+let vis = true; //Booleanos são conhecidos como números true = 1 e false = 0, por isso somando um boolean com um number ele é um typeof do tipo number
+
+let res = num + vis;
+console.log(typeof res);
