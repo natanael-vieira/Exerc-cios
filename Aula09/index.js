@@ -20,4 +20,16 @@ function mudaCorFundo(){
 
 
 //Funções
+//Declaração da função
+function exibirMensagem() {
+    alert('Olá, esta mensagem foi obtida a partir de uma função');
+}
 
+//Chamada da função
+exibirMensagem();
+
+function exibirMsg(primNome, segNome) {
+    alert(`Olá, ${primNome} ${segNome}, esta função usa parâmetros para colocar seu nome na mensagem!`);
+}
+
+exibirMsg('Natanael', 'Vieira');
