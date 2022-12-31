@@ -18,18 +18,30 @@ function mudaCorFundo(){
     document.body.style.background = cor;
 }
 
-
+/*
 //Funções
 //Declaração da função
 function exibirMensagem() {
     alert('Olá, esta mensagem foi obtida a partir de uma função');
 }
-
-//Chamada da função
+//Chamada ou invocação da função
 exibirMensagem();
 
 function exibirMsg(primNome, segNome) {
     alert(`Olá, ${primNome} ${segNome}, esta função usa parâmetros para colocar seu nome na mensagem!`);
 }
 
-exibirMsg('Natanael', 'Vieira');
+exibirMsg('Natanael', 'Vieira');*/
+
+
+function mediaAritmeticaSimples(a,b) {
+    /*let m = (a+b)/2;
+    return m;*/
+    return (a+b)/2;
+}
+
+let res = mediaAritmeticaSimples(10,5);
+console.log(res);
+
+res = mediaAritmeticaSimples(45,92);
+console.log(res);
