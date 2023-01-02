@@ -42,6 +42,19 @@ const indice = cidades.indexOf('Londrina');
 
 console.log(indice);
 
-cidades.splice()
+cidades.splice(indice,5);
 
-console.log(cidades)
+console.log(cidades);
+
+//concat() - concatenação de arrays
+
+const cidadesInterior = ['Joinville', 'Blumenau', 'Itajaí'];
+const regioesMetropolitanas = ['Palhoça', 'São José'];
+
+const cidadesInteriorEMetropolitana = cidadesInterior.concat(regioesMetropolitanas);
+
+console.log(cidadesInterior);
+console.log(regioesMetropolitanas);
+console.log(cidadesInteriorEMetropolitana);
+
+console.log(cidadesInteriorEMetropolitana.indexOf('Biguaçu')); // Como não foi cadastrada anteriormente essa cidade, ele irá retornar no console o valor -1
