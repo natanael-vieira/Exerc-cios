@@ -11,6 +11,10 @@
             color: rgb(239,227,227);
             font: 11pt Tahoma;
         }
+        ul.novoponteiro{
+            cursor: pointer;
+            color: yellow;
+        }
     </style>
 </head>
 <body>
@@ -18,7 +22,7 @@
     <h2>Modelo de Documento por Objetos</h2>
 
 <p>Define:</p>
-<ul id="lista">
+<ul id="lista" class="novoponteiro">
     <li>Os <strong>elementos</strong> HTML como <strong>objetos</strong>;</li>
     <p></p>
     <li>As <strong>propriedades</strong> dos elementos HTML;</li>
@@ -26,7 +30,9 @@
     <li>Os <strong>métodos</strong> para acessar os elementos HTML;</li>
     <p></p>
     <li>Os <strong>eventos</strong> dos elementos HTML.</li>
+    <p></p>
+    <button>Limpar</button>
 </ul>
-<script type="text/javascript" src="index.js"></script>
+<script src="index.js"></script>
 </body>
 </html>
