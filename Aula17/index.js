@@ -46,3 +46,41 @@ if (resultado >= 6) {
 }
 
 console.log(sit);
+
+
+
+// switch()
+
+let opcao = 3;
+
+switch (opcao) {
+    case 1: 
+        console.log('Entrega do tipo econômica em até 10 dias úteis.');
+        break;
+    case 2: 
+        console.log('Entrega do tipo normal em até 3 dias úteis.');
+        break;
+    case 3: 
+        console.log('Entrega do tipo expressa em até 1 dia útil.');
+        break;
+    default: 
+        console.log('Opção de entrega inválida.');
+}
+
+
+
+opcao = 'olá';
+
+switch (opcao) {
+    case 'economica': 
+        console.log('Entrega do tipo econômica em até 10 dias úteis.');
+        break;
+    case 'normal': 
+        console.log('Entrega do tipo normal em até 3 dias úteis.');
+        break;
+    case 'expressa': 
+        console.log('Entrega do tipo expressa em até 1 dia útil.');
+        break;
+    default: 
+        console.log('Opção de entrega inválida.');
+}
