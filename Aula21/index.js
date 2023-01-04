@@ -18,8 +18,20 @@ function adicionaTarefa (textoDatarefa) {
     elementoSPAN.setAttribute('id', 'tarefa');
     elementoSPAN.textContent = textoDatarefa;
 
+    elementoLi.className = 'naoRealizada';
     elementoLi.appendChild(elementoSPAN);
     elementoLi.appendChild(acidicionarBotaoRemover());
+
+    elementoSPAN.addEventListener('click', function() {
+        console.log(elementoLi)
+        if(this.id === 'tarefa') {
+            if(this.parentNode.className === 'naoRealizada') {
+                this.parentNode.className = 'realizada'
+            } else {
+                this.parentNode.className = 'naoRealizada'
+            }
+        }
+    });
 
     return elementoLi;
 }
