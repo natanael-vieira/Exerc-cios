@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando DOM - Exemplo Prático</title>
+    <style>
+        body{
+            background-color: blueviolet;
+            color: whitesmoke;
+            font: 14pt Tahoma;
+        }
+        button.remover {
+            position: absolute;
+            right: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Lista de Tarefas</h2>
+
+    <div>
+        <input type="text" id="caixaDeTexto" placeholder="Tarefa">
+        <button id="botaoAdicionar" class="adicionar">≏</button>
+    </div>
+
+    <ul id="listaTarefas">
+
+    </ul>
+
+    <script src="index.js"></script>
+</body>
+</html>
